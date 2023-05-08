@@ -19,16 +19,16 @@ class Question
     #[ORM\Column(type: Types::TEXT)]
     private ?string $text = null;
 
-    #[ORM\OneToMany(mappedBy: 'question', targetEntity: Answer::class, orphanRemoval: true)]
-    private Collection $rightAnswer;
+    #[ORM\OneToMany(mappedBy: 'question', targetEntity: WrongAnswer::class, orphanRemoval: true)]
+    private Collection $wrongAnswers;
 
-    #[ORM\OneToMany(mappedBy: 'question', targetEntity: Answer::class)]
-    private Collection $wgrongAnswer;
+    #[ORM\OneToMany(mappedBy: 'question', targetEntity: RightAnswer::class, orphanRemoval: true)]
+    private Collection $rightAnswers;
 
     public function __construct()
     {
-        $this->rightAnswer = new ArrayCollection();
-        $this->wgrongAnswer = new ArrayCollection();
+        $this->wrongAnswers = new ArrayCollection();
+        $this->rightAnswers = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -49,26 +49,56 @@ class Question
     }
 
     /**
-     * @return Collection<int, Answer>
+     * @return Collection<int, WrongAnswer>
      */
-    public function getRightAnswer(): Collection
+    public function getWrongAnswers(): Collection
     {
-        return $this->rightAnswer;
+        return $this->wrongAnswers;
     }
 
-    public function addRightAnswer(Answer $rightAnswer): self
+    public function addWrongAnswer(WrongAnswer $wrongAnswer): self
     {
-        if (!$this->rightAnswer->contains($rightAnswer)) {
-            $this->rightAnswer->add($rightAnswer);
+        if (!$this->wrongAnswers->contains($wrongAnswer)) {
+            $this->wrongAnswers->add($wrongAnswer);
+            $wrongAnswer->setQuestion($this);
+        }
+
+        return $this;
+    }
+
+    public function removeWrongAnswer(WrongAnswer $wrongAnswer): self
+    {
+        if ($this->wrongAnswers->removeElement($wrongAnswer)) {
+            // set the owning side to null (unless already changed)
+            if ($wrongAnswer->getQuestion() === $this) {
+                $wrongAnswer->setQuestion(null);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, RightAnswer>
+     */
+    public function getRightAnswers(): Collection
+    {
+        return $this->rightAnswers;
+    }
+
+    public function addRightAnswer(RightAnswer $rightAnswer): self
+    {
+        if (!$this->rightAnswers->contains($rightAnswer)) {
+            $this->rightAnswers->add($rightAnswer);
             $rightAnswer->setQuestion($this);
         }
 
         return $this;
     }
 
-    public function removeRightAnswer(Answer $rightAnswer): self
+    public function removeRightAnswer(RightAnswer $rightAnswer): self
     {
-        if ($this->rightAnswer->removeElement($rightAnswer)) {
+        if ($this->rightAnswers->removeElement($rightAnswer)) {
             // set the owning side to null (unless already changed)
             if ($rightAnswer->getQuestion() === $this) {
                 $rightAnswer->setQuestion(null);
@@ -78,33 +108,8 @@ class Question
         return $this;
     }
 
-    /**
-     * @return Collection<int, Answer>
-     */
-    public function getWgrongAnswer(): Collection
+    public function __toString(): string
     {
-        return $this->wgrongAnswer;
-    }
-
-    public function addWgrongAnswer(Answer $wgrongAnswer): self
-    {
-        if (!$this->wgrongAnswer->contains($wgrongAnswer)) {
-            $this->wgrongAnswer->add($wgrongAnswer);
-            $wgrongAnswer->setQuestion($this);
-        }
-
-        return $this;
-    }
-
-    public function removeWgrongAnswer(Answer $wgrongAnswer): self
-    {
-        if ($this->wgrongAnswer->removeElement($wgrongAnswer)) {
-            // set the owning side to null (unless already changed)
-            if ($wgrongAnswer->getQuestion() === $this) {
-                $wgrongAnswer->setQuestion(null);
-            }
-        }
-
-        return $this;
+        return $this->getText() ?? '';
     }
 }
