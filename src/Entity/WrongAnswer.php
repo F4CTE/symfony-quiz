@@ -2,12 +2,12 @@
 
 namespace App\Entity;
 
-use App\Repository\AnswerRepository;
+use App\Repository\WrongAnswerRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: AnswerRepository::class)]
-class Answer
+#[ORM\Entity(repositoryClass: WrongAnswerRepository::class)]
+class WrongAnswer
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
@@ -17,7 +17,7 @@ class Answer
     #[ORM\Column(type: Types::TEXT)]
     private ?string $text = null;
 
-    #[ORM\ManyToOne(inversedBy: 'rightAnswer')]
+    #[ORM\ManyToOne(inversedBy: 'wrongAnswers')]
     #[ORM\JoinColumn(nullable: false)]
     private ?Question $question = null;
 
@@ -48,5 +48,10 @@ class Answer
         $this->question = $question;
 
         return $this;
+    }
+
+    public function __toString(): string
+    {
+        return $this->getText() ?? '';
     }
 }

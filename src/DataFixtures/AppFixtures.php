@@ -4,6 +4,8 @@ namespace App\DataFixtures;
 
 use App\Entity\Answer;
 use App\Entity\Question;
+use App\Entity\RightAnswer;
+use App\Entity\WrongAnswer;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
@@ -17,16 +19,16 @@ class AppFixtures extends Fixture
             $question = new Question();
             $question->setText($row['question']);
             foreach($row['goodAnswers'] as $goodAnswer) {
-                $answer = new Answer();
+                $answer = new RightAnswer();
                 $answer->setText($goodAnswer);
                 $question->addRightAnswer($answer);
                 $manager->persist($answer);
 
             }
             foreach($row['wrongAnswers'] as $wrongAnswer) {
-                $answer = new Answer();
+                $answer = new WrongAnswer();
                 $answer->setText($wrongAnswer);
-                $question->addWgrongAnswer($answer);
+                $question->addWrongAnswer($answer);
                 $manager->persist($answer);
             }
             $manager->persist($question);
