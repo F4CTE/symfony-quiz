@@ -1,0 +1,57 @@
+[
+   {
+      "question":"À quoi sert le contrôle d'accès dans le fichier de configuration security.yaml ?",
+      "goodAnswers":[
+         "À restreindre des sections entières à un rôle particulier"
+      ],
+      "wrongAnswers":[
+         "À restreindre l'accès à un contrôleur spécifique",
+         "À définir les permissions d'un utilisateur",
+         "À créer un utilisateur"
+      ]
+   },
+   {
+      "question":"Que permet la méthode denyAccessUnlessIsGranted ?",
+      "goodAnswers":[
+         "De générer une erreur 403 Forbidden si l'utilisateur n'a pas le droit d'accéder à la ressource"
+      ],
+      "wrongAnswers":[
+         "De récupérer l'utilisateur connecté",
+         "De vérifier si un utilisateur a un rôle ou peut effectuer une action",
+         "De renvoyer un booléen pour indiquer si l'utilisateur a le droit d'accéder à la ressource"
+      ]
+   },
+   {
+      "question":"Comment peut-on récupérer l'utilisateur depuis un contrôleur ?",
+      "goodAnswers":[
+         "En utilisant la méthode $this->getUser()"
+      ],
+      "wrongAnswers":[
+         "En utilisant la méthode getRoles()",
+         "En utilisant la méthode isGranted()",
+         "En utilisant la méthode denyAccessUnlessGranted()"
+      ]
+   },
+   {
+      "question":"Pourquoi est-il recommandé de ne pas utiliser directement la méthode getRoles() sur un utilisateur pour vérifier ses rôles ?",
+      "goodAnswers":[
+         "Parce qu'il existe des méthodes spécifiques pour vérifier les rôles d'un utilisateur"
+      ],
+      "wrongAnswers":[
+         "Parce que cette méthode n'existe pas dans Symfony",
+         "Parce qu'elle ne permet pas de vérifier les rôles d'un utilisateur",
+         "Parce qu'elle peut être contournée par un utilisateur malveillant"
+      ]
+   },
+   {
+      "question":"Comment peut-on implémenter un contrôle d'accès plus fin dans Symfony ?",
+      "goodAnswers":[
+         "En créant un Voter personnalisé"
+      ],
+      "wrongAnswers":[
+         "En utilisant la méthode denyAccessUnlessIsGranted",
+         "En utilisant la méthode getRoles()",
+         "En utilisant la méthode isGranted()"
+      ]
+   }
+]

@@ -1,0 +1,79 @@
+[
+   {
+      "question":"Que peut contenir le container de services de Symfony en plus de services ?",
+      "goodAnswers":[
+         "Des paramètres applicatifs"
+      ],
+      "wrongAnswers":[
+         "Des fichiers de configuration",
+         "Des images",
+         "Des vidéos"
+      ]
+   },
+   {
+      "question":"Où peut-on trouver la section de configuration parameters dans Symfony ?",
+      "goodAnswers":[
+         "Dans le fichier config/services.yaml"
+      ],
+      "wrongAnswers":[
+         "Dans le fichier de routing",
+         "Dans le fichier .env",
+         "Dans le fichier composer.json"
+      ]
+   },
+   {
+      "question":"Comment éviter de répéter une adresse email dans toute l'application Symfony pour l'envoi d'emails automatiques ?",
+      "goodAnswers":[
+         "En la définissant comme paramètre dans le fichier config/services.yaml"
+      ],
+      "wrongAnswers":[
+         "En créant une nouvelle adresse email pour chaque envoi",
+         "En la stockant dans un fichier .txt",
+         "En la stockant dans une variable d'environnement"
+      ]
+   },
+   {
+      "question":"Quelle est la différence entre une variable d'environnement et une variable applicative dans Symfony ?",
+      "goodAnswers":[
+         "Les variables applicatives ne changent pas d'un environnement à l'autre, tandis que les variables d'environnement peuvent varier en fonction de l'environnement d'exécution"
+      ],
+      "wrongAnswers":[
+         "Il n'y a pas de différence, ce sont des termes synonymes",
+         "Les variables applicatives sont stockées dans le code source de l'application, tandis que les variables d'environnement sont stockées dans le système d'exploitation",
+         "Les variables applicatives ne peuvent pas être modifiées dynamiquement, tandis que les variables d'environnement le peuvent"
+      ]
+   },
+   {
+      "question":"Comment peut-on injecter un paramètre dans le constructeur d'un service Symfony ?",
+      "goodAnswers":[
+         "En déclarant le paramètre dans le constructeur du service avec le type correspondant"
+      ],
+      "wrongAnswers":[
+         "En utilisant la fonction \"inject()\"",
+         "En déclarant le paramètre comme une variable globale",
+         "En ajoutant le paramètre dans le fichier de configuration de services.yaml"
+      ]
+   },
+   {
+      "question":"Comment peut-on configurer manuellement un service dans Symfony pour qu'il reçoive automatiquement un paramètre ?",
+      "goodAnswers":[
+         "En ajoutant une nouvelle section \"arguments\" dans services.yaml"
+      ],
+      "wrongAnswers":[
+         "En modifiant le code source du service",
+         "En ajoutant une nouvelle section \"config\" dans services.yaml",
+         "En ajoutant une nouvelle section \"parameters\" dans services.yaml"
+      ]
+   },
+   {
+      "question":"Comment peut-on configurer le container de services de Symfony pour qu'il lie automatiquement un paramètre à une valeur ?",
+      "goodAnswers":[
+         "En ajoutant une nouvelle section \"bind\" dans services.yaml"
+      ],
+      "wrongAnswers":[
+         "En utilisant la fonction \"bind()\"",
+         "En modifiant le fichier .env",
+         "En ajoutant une nouvelle section \"autowire\" dans services.yaml"
+      ]
+   }
+]

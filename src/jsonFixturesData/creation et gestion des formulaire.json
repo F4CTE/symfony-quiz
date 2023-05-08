@@ -1,0 +1,46 @@
+[
+      {
+         "question":"Quelle méthode doit-on utiliser pour créer un formulaire dans notre contrôleur ?",
+         "goodAnswers":[
+            "createForm"
+         ],
+         "wrongAnswers":[
+            "handleRequest",
+            "NewsletterType",
+            "HttpFoundation"
+         ]
+      },
+      {
+         "question":"Que permet de faire la méthode createForm ?",
+         "goodAnswers":[
+            "Les réponses A, B et C sont correctes"
+         ],
+         "wrongAnswers":[
+            "Créer une entité vide reliée à un formulaire",
+            "Spécifier le type de formulaire à récupérer",
+            "Lier une entité à un formulaire"
+         ]
+      },
+      {
+         "question":"Quelle méthode doit-on utiliser pour gérer les données saisies dans le formulaire ?",
+         "goodAnswers":[
+            "handleRequest"
+         ],
+         "wrongAnswers":[
+            "createForm",
+            "NewsletterType",
+            "HttpFoundation"
+         ]
+      },
+      {
+         "question":"Comment récupère-t-on la requête entrante pour la passer en paramètre à la méthode handleRequest ?",
+         "goodAnswers":[
+            "En type-hintant le type Request du composant HttpFoundation dans les paramètres de notre contrôleur"
+         ],
+         "wrongAnswers":[
+            "En utilisant la méthode NewsletterType",
+            "En utilisant la méthode HttpFoundation",
+            "En utilisant la méthode createForm"
+         ]
+      }
+   ]

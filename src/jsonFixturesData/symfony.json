@@ -1,0 +1,40 @@
+[
+   {
+      "question":"Qu'est-ce que Symfony ?",
+      "goodAnswers":[
+         "Un ensemble de composants PHP réutilisables.",
+         "Un framework pour créer des applications web complètes."
+      ],
+      "wrongAnswers":[
+         "Un système de versioning pour les projets PHP.",
+         "Un système d'environnement pour le développement PHP."
+      ]
+   },
+   {
+      "question":"Combien de temps est assuré le support pour les versions LTS de Symfony ?",
+      "goodAnswers":["3 ans pour les corrections de bugs et 4 ans pour les failles de sécurité."],
+      "wrongAnswers":[
+         "1 an pour les corrections de bugs et 2 ans pour les failles de sécurité.",
+         "2 ans pour les corrections de bugs et 3 ans pour les failles de sécurité.",
+         "4 ans pour les corrections de bugs et 5 ans pour les failles de sécurité."
+      ]
+   },
+   {
+      "question":"Comment installer un projet Symfony en version 5.4 LTS ?",
+      "goodAnswers":["symfony new my_project_directory --version=5.4 --webapp"],
+      "wrongAnswers":[
+         "symfony new my_project_directory --version=5.4",
+         "composer create-project symfony/website-skeleton my_project_directory",
+         "composer create-project symfony/skeleton my_project_directory"
+      ]
+   },
+   {
+      "question":"Combien d'environnements par défaut sont prévus par Symfony ?",
+      "goodAnswers":["3"],
+      "wrongAnswers":[
+         "1",
+         "2",
+         "4"
+      ]
+   }
+]

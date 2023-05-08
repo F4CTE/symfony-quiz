@@ -1,0 +1,38 @@
+[
+   {
+      "question":"Qu'est-ce que la console Symfony ?",
+      "goodAnswers":["Un exécutable PHP contenant des outils pour les développements"],
+      "wrongAnswers":[
+         "Un logiciel de gestion de projet",
+         "Un environnement de développement intégré",
+         "Un framework pour la création de sites web"
+      ]
+   },
+   {
+      "question":"Quelles sont les actions que l'on peut réaliser avec la console Symfony ?",
+      "goodAnswers":["Tous les choix précédents"],
+      "wrongAnswers":[
+         "Créer un contrôleur",
+         "Créer une entité",
+         "Mettre à jour notre base de données"
+      ]
+   },
+   {
+      "question":"Comment écrit-on les appels à la console de Symfony ?",
+      "goodAnswers":["php bin/console [commande]"],
+      "wrongAnswers":[
+         "Symfony console [commande]",
+         "php app/console [commande]",
+         "bin/symfony [commande]"
+      ]
+   },
+   {
+      "question":"Comment peut-on afficher la liste des commandes disponibles dans la console Symfony ?",
+      "goodAnswers":["En utilisant la commande 'php bin/console list'"],
+      "wrongAnswers":[
+         "En utilisant la commande 'php bin/console'",
+         "En utilisant la commande 'symfony console'",
+         "En utilisant la commande 'bin/symfony list'"
+      ]
+   }
+]

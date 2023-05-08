@@ -1,0 +1,68 @@
+[
+   {
+      "question":"Qu'est-ce que Doctrine ?",
+      "goodAnswers":[
+         "Un ORM (Object Relational Mapping) pour PHP"
+      ],
+      "wrongAnswers":[
+         "Un framework JavaScript",
+         "Un langage de programmation",
+         "Un CMS (Content Management System)"
+      ]
+   },
+   {
+      "question":"À quoi servent les repositories avec Doctrine ?",
+      "goodAnswers":[
+         "À communiquer avec la base de données à propos d'une entité"
+      ],
+      "wrongAnswers":[
+         "À créer des entités",
+         "À écrire des requêtes SQL",
+         "À manipuler les fichiers"
+      ]
+   },
+   {
+      "question":"Quelles sont les méthodes offertes par la classe EntityRepository de Doctrine ?",
+      "goodAnswers":[
+         "findAll",
+         "find",
+         "findBy"
+      ],
+      "wrongAnswers":[
+         "findAllBy"
+      ]
+   },
+   {
+      "question":"Dans un contrôleur de page d'accueil, comment pourriez-vous récupérer tous les produits visibles, en promotion, limités à 5, ordonnés par prix croissant et créés il y a moins d'un an avec Doctrine ?",
+      "goodAnswers":[
+         "En utilisant le Query Builder",
+         "En utilisant la méthode createQuery avec une syntaxe DQL"
+      ],
+      "wrongAnswers":[
+         "En utilisant la méthode findBy du repository",
+         "En écrivant une requête SQL"
+      ]
+   },
+   {
+      "question":"Qu'est-ce que le langage DQL avec Doctrine ?",
+      "goodAnswers":[
+         "Un langage pour écrire des requêtes avec Doctrine"
+      ],
+      "wrongAnswers":[
+         "Un langage de programmation",
+         "Un langage pour écrire des requêtes SQL",
+         "Un langage pour écrire des requêtes avec Symfony"
+      ]
+   },
+   {
+      "question":"Comment peut-on générer une requête sans avoir à l'écrire directement en DQL avec Doctrine ?",
+      "goodAnswers":[
+         "En utilisant le Query Builder"
+      ],
+      "wrongAnswers":[
+         "En utilisant la méthode createQuery",
+         "En utilisant la méthode findBy du repository",
+         "En écrivant une requête SQL"
+      ]
+   }
+]

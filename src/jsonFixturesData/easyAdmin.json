@@ -1,0 +1,57 @@
+[
+   {
+      "question":"Qu'est-ce que la commande make:crud ?",
+      "goodAnswers":[
+         "Une commande permettant de générer un CRUD automatique sur une entité"
+      ],
+      "wrongAnswers":[
+         "Une commande permettant d'installer le EasyAdminBundle",
+         "Une commande permettant de configurer le point d'entrée de l'interface d'administration",
+         "Aucune des réponses ci-dessus"
+      ]
+   },
+   {
+      "question":"Quel est le Bundle d'administration complète à installer pour avoir une interface d'administration plus riche ?",
+      "goodAnswers":[
+         "Le EasyAdminBundle"
+      ],
+      "wrongAnswers":[
+         "Le MakerBundle",
+         "Le AdminGenBundle",
+         "Aucune des réponses ci-dessus"
+      ]
+   },
+   {
+      "question":"Comment créer un tableau de bord avec le EasyAdminBundle ?",
+      "goodAnswers":[
+         "Avec la commande make:admin:dashboard"
+      ],
+      "wrongAnswers":[
+         "Avec la commande make:crud",
+         "Avec la commande make:bundle",
+         "Aucune des réponses ci-dessus"
+      ]
+   },
+   {
+      "question":"Comment configurer le point d'entrée de l'interface d'administration avec EasyAdminBundle ?",
+      "goodAnswers":[
+         "En modifiant le contrôleur index dans le DashboardController"
+      ],
+      "wrongAnswers":[
+         "En modifiant la configuration du Bundle dans le fichier app/config.yml",
+         "En modifiant le fichier index.html.twig",
+         "Aucune des réponses ci-dessus"
+      ]
+   },
+   {
+      "question":"Comment lier automatiquement une entité à une autre dans le formulaire d'édition d'une entité avec EasyAdminBundle ?",
+      "goodAnswers":[
+         "En utilisant la méthode autocomplete et la méthode toString"
+      ],
+      "wrongAnswers":[
+         "En utilisant la méthode autocomplete dans le configureFields de la classe CrudController",
+         "En utilisant la méthode toString dans la classe de l'entité liée",
+         "Aucune des réponses ci-dessus"
+      ]
+   }
+]

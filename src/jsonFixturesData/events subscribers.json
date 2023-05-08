@@ -1,0 +1,46 @@
+[
+      {
+         "question":"Quelle est la particularité des subscribers par rapport aux event listeners ?",
+         "goodAnswers":[
+            "Les subscribers savent toujours quel(s) événement(s) ils écoutent"
+         ],
+         "wrongAnswers":[
+            "Les subscribers ne peuvent pas écouter plusieurs événements",
+            "Les subscribers ont besoin d'être configurés avec un tag pour être considérés comme des event subscribers de Doctrine",
+            "Les subscribers ne peuvent pas être utilisés pour effectuer une action sur une entité spécifique"
+         ]
+      },
+      {
+         "question":"Dans quelle méthode du subscriber se trouve l'action effectuée sur l'entité User ?",
+         "goodAnswers":[
+            "La méthode prePersist"
+         ],
+         "wrongAnswers":[
+            "La méthode getSubscribedEvents",
+            "La méthode postPersist",
+            "La méthode persist"
+         ]
+      },
+      {
+         "question":"Quel est le tag automatiquement ajouté à notre service lorsque l'on implémente l'interface EventSubscriberInterface ?",
+         "goodAnswers":[
+            "doctrine.event_subscriber"
+         ],
+         "wrongAnswers":[
+            "doctrine.listener",
+            "doctrine.subscriber",
+            "doctrine.event_listener"
+         ]
+      },
+      {
+         "question":"Quel est l'avantage d'utiliser un subscriber plutôt qu'un listener pour exécuter une logique de code à plusieurs endroits de l'application ?",
+         "goodAnswers":[
+            "Le subscriber permet de déléguer l'exécution du code à une méthode spécifique, ce qui rend le code plus clair et plus modulaire"
+         ],
+         "wrongAnswers":[
+            "Il n'y a pas d'avantage, les deux méthodes sont équivalentes",
+            "Le subscriber permet d'écouter plusieurs événements en même temps",
+            "Le subscriber ne nécessite pas de configuration supplémentaire pour être considéré comme un event subscriber de Doctrine"
+         ]
+      }
+   ]

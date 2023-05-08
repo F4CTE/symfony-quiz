@@ -1,0 +1,92 @@
+[
+   {
+      "question":"Qu'est-ce que Twig ?",
+      "goodAnswers":["Un moteur de templates pour Symfony"],
+      "wrongAnswers":[
+         "Un framework PHP",
+         "Un éditeur de texte",
+         "Un CMS"
+      ]
+   },
+   {
+      "question":"Combien y a-t-il d'éléments de syntaxe à retenir en Twig ?",
+      "goodAnswers":["3"],
+      "wrongAnswers":[
+         "1",
+         "2",
+         "4"
+      ]
+   },
+   {
+      "question":"Quel est l'élément de syntaxe pour évaluer une expression et afficher le résultat à l'écran en Twig ?",
+      "goodAnswers":["{{ }}"],
+      "wrongAnswers":[
+         "{% %}",
+         "{# #}",
+         "$"
+      ]
+   },
+   {
+      "question":"Comment inscrire un commentaire dans un template en Twig ?",
+      "goodAnswers":["{# #}"],
+      "wrongAnswers":[
+         "{% %}",
+         "{{ }}",
+         "//"
+      ]
+   },
+   {
+      "question":"Quel est le but d'un template de base commun dans une application Symfony ?",
+      "goodAnswers":["Toutes les réponses sont correctes"],
+      "wrongAnswers":[
+         "Avoir un squelette HTML de base pour toutes les pages",
+         "Éviter de répéter du code HTML sur toutes les pages",
+         "Fournir un point de départ pour chaque page de l'application"
+      ]
+   },
+   {
+      "question":"Qu'est-ce qu'un bloc dans Twig ?",
+      "goodAnswers":["Une zone de contenu définie dans un template"],
+      "wrongAnswers":[
+         "Une fonction",
+         "Un commentaire",
+         "Un élément de syntaxe"
+      ]
+   },
+   {
+      "question":"Comment peut-on définir le contenu d'un bloc dans un template enfant ?",
+      "goodAnswers":["En écrivant directement le contenu dans le template enfant"],
+      "wrongAnswers":[
+         "Avec la fonction block()",
+         "Avec la fonction parent()",
+         "Aucune des réponses ci-dessus"
+      ]
+   },
+   {
+      "question":"À quoi sert la fonction include() en Twig ?",
+      "goodAnswers":["À inclure un template dans un autre"],
+      "wrongAnswers":[
+         "À définir une variable dans un template",
+         "À afficher du texte brut dans un template",
+         "À exécuter une fonction dans un template"
+      ]
+   },
+   {
+      "question":"Quel est l'élément de syntaxe pour une structure de contrôle if ... else en Twig ?",
+      "goodAnswers":["{% %}"],
+      "wrongAnswers":[
+         "{{ }}",
+         "{# #}",
+         "if ... else n'est pas une structure de contrôle en Twig"
+      ]
+   },
+   {
+      "question":"Quelle est la fonction Twig qui permet de rappeler le contenu du bloc parent ?",
+      "goodAnswers":["parent()"],
+      "wrongAnswers":[
+         "block()",
+         "include()",
+         "with_context()"
+      ]
+   }
+]

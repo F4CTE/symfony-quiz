@@ -1,0 +1,79 @@
+[
+   {
+      "question":"Que permettent les pare-feux (firewalls) dans Symfony ?",
+      "goodAnswers":[
+         "De filtrer les requêtes entrantes"
+      ],
+      "wrongAnswers":[
+         "De filtrer les requêtes sortantes",
+         "De bloquer l'accès à certaines pages",
+         "De limiter le nombre de requêtes par seconde"
+      ]
+   },
+   {
+      "question":"Quel est le pare-feu principal utilisé pour l'authentification dans Symfony ?",
+      "goodAnswers":[
+         "main"
+      ],
+      "wrongAnswers":[
+         "dev",
+         "security",
+         "firewall"
+      ]
+   },
+   {
+      "question":"À quoi sert la directive \"lazy\" dans la configuration d'un pare-feu dans Symfony ?",
+      "goodAnswers":[
+         "À n'utiliser la session PHP que si nécessaire"
+      ],
+      "wrongAnswers":[
+         "À activer la sécurité seulement en mode \"lazy\"",
+         "À charger les utilisateurs de manière paresseuse",
+         "À désactiver la sécurité en mode \"lazy\""
+      ]
+   },
+   {
+      "question":"Qu'est-ce qu'un Authenticator dans Symfony ?",
+      "goodAnswers":[
+         "Un composant de sécurité permettant de gérer l'authentification des utilisateurs"
+      ],
+      "wrongAnswers":[
+         "Une méthode pour réaliser l'authentification à partir de la requête entrante",
+         "Une classe générée automatiquement par la commande make:auth",
+         "Une classe fournie par Symfony pour accélérer les développements"
+      ]
+   },
+   {
+      "question":"Qu'est-ce qu'un Passport dans Symfony ?",
+      "goodAnswers":[
+         "Un mécanisme permettant de valider les différents badges ou credentials fournis lors de l'authentification"
+      ],
+      "wrongAnswers":[
+         "Une méthode pour réaliser l'authentification à partir de la requête entrante",
+         "Une classe générée automatiquement par la commande make:auth",
+         "Un composant de sécurité permettant de gérer l'authentification des utilisateurs"
+      ]
+   },
+   {
+      "question":"Qu'est-ce que le contrôle d'accès dans Symfony ?",
+      "goodAnswers":[
+         "Un mécanisme permettant de restreindre l'accès à certaines pages aux utilisateurs ayant les bons rôles"
+      ],
+      "wrongAnswers":[
+         "Un mécanisme permettant de filtrer les requêtes entrantes",
+         "Un mécanisme permettant de limiter le nombre de requêtes par seconde",
+         "Un mécanisme permettant de limiter l'accès aux utilisateurs connectés"
+      ]
+   },
+   {
+      "question":"Comment restreindre l'accès à une partie de l'application aux utilisateurs connectés dans Symfony ?",
+      "goodAnswers":[
+         "access_control: - { path: ^/connected, roles: IS_AUTHENTICATED_FULLY }"
+      ],
+      "wrongAnswers":[
+         "access_control: - { path: ^/public, roles: PUBLIC_ACCESS }",
+         "access_control: - { path: ^/admin, roles: ROLE_ADMIN }",
+         "access_control: - { path: ^/restricted, roles: RESTRICTED_ACCESS }"
+      ]
+   }
+]

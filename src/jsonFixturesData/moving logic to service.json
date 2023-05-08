@@ -1,0 +1,90 @@
+[
+   {
+      "question":"Où doit être créée la classe pour le service d'envoi d'email dans notre application ?",
+      "goodAnswers":[
+         "Dans le dossier src/"
+      ],
+      "wrongAnswers":[
+         "Dans le dossier config/",
+         "Dans le dossier templates/",
+         "Dans le dossier public/"
+      ]
+   },
+   {
+      "question":"Quel est le namespace créé pour notre service d'envoi d'email ?",
+      "goodAnswers":[
+         "Mailer"
+      ],
+      "wrongAnswers":[
+         "Newsletter",
+         "Email",
+         "NotificationService"
+      ]
+   },
+   {
+      "question":"Comment s'appelle la méthode qui sera créée dans notre classe pour envoyer l'email ?",
+      "goodAnswers":[
+         "send"
+      ],
+      "wrongAnswers":[
+         "sendEmail",
+         "sendNewsletter",
+         "sendConfirmation"
+      ]
+   },
+   {
+      "question":"Comment doit-on procéder à l'injection de dépendances dans une classe de service séparée ?",
+      "goodAnswers":[
+         "Par constructeur"
+      ],
+      "wrongAnswers":[
+         "Par méthode",
+         "Par attribut public",
+         "Par attribut privé"
+      ]
+   },
+   {
+      "question":"Quel est le type que nous devons type-hinter pour notre service d'envoi d'email ?",
+      "goodAnswers":[
+         "Mailer"
+      ],
+      "wrongAnswers":[
+         "Email",
+         "NotificationService",
+         "NewsletterSubscribedConfirmation"
+      ]
+   },
+   {
+      "question":"Comment peut-on vérifier que notre service est disponible en tant que type-hint dans Symfony ?",
+      "goodAnswers":[
+         "En utilisant la commande \"php bin/console debug:autowiring\""
+      ],
+      "wrongAnswers":[
+         "En utilisant la commande \"php bin/console cache:clear\"",
+         "En utilisant la commande \"php bin/console make:controller\"",
+         "En utilisant la commande \"php bin/console make:service\""
+      ]
+   },
+   {
+      "question":"Dans quelle méthode de notre contrôleur doit-on utiliser notre service d'envoi d'email ?",
+      "goodAnswers":[
+         "La méthode register()"
+      ],
+      "wrongAnswers":[
+         "La méthode index()",
+         "La méthode show()",
+         "La méthode create()"
+      ]
+   },
+   {
+      "question":"Comment appelle-t-on le fait de déclarer les dépendances d'un service dans Symfony ?",
+      "goodAnswers":[
+         "L'injection de dépendances"
+      ],
+      "wrongAnswers":[
+         "L'autowiring",
+         "Le type-hinting",
+         "Le container de services"
+      ]
+   }
+]

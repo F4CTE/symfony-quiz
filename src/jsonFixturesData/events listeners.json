@@ -1,0 +1,46 @@
+[
+      {
+         "question":"Qu'est-ce qu'un event listener dans Symfony ?",
+         "goodAnswers":[
+            "Une classe qui permet de gérer les événements déclenchés par le composant symfony/http-kernel."
+         ],
+         "wrongAnswers":[
+            "Une fonction qui renvoie une réponse à une requête HTTP.",
+            "Une méthode qui permet de générer une vue dans Symfony.",
+            "Un composant de Symfony qui permet de gérer les erreurs HTTP."
+         ]
+      },
+      {
+         "question":"À quel moment un event listener se déclenche-t-il ?",
+         "goodAnswers":[
+            "Lorsqu'une requête est reçue."
+         ],
+         "wrongAnswers":[
+            "Lorsque le serveur est lancé.",
+            "Lorsqu'une vue est générée.",
+            "Lorsqu'une erreur se produit."
+         ]
+      },
+      {
+         "question":"Comment ajouter une en-tête personnalisée à une réponse HTTP dans Symfony ?",
+         "goodAnswers":[
+            "En créant un event listener qui écoute l'événement kernel.response."
+         ],
+         "wrongAnswers":[
+            "En modifiant directement la réponse renvoyée par le contrôleur.",
+            "En écrivant une méthode spécifique dans le composant symfony/http-kernel.",
+            "En ajoutant une propriété à la classe Response de Symfony."
+         ]
+      },
+      {
+         "question":"Comment configurer un event listener dans Symfony ?",
+         "goodAnswers":[
+            "En ajoutant un tag kernel.event_listener à la configuration du service correspondant au listener."
+         ],
+         "wrongAnswers":[
+            "En créant une méthode spécifique dans la classe du listener.",
+            "En ajoutant une propriété event_listener à la configuration du service correspondant au listener.",
+            "En déclarant le listener dans le fichier de configuration du composant symfony/http-kernel."
+         ]
+      }
+   ]

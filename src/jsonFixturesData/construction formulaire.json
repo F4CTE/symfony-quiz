@@ -1,0 +1,46 @@
+[
+      {
+         "question":"Quel est le but de la création d'un formulaire simple dans cet exemple ?",
+         "goodAnswers":[
+            "Enregistrer une adresse email dans une table Newsletter."
+         ],
+         "wrongAnswers":[
+            "Afficher une page de présentation.",
+            "Demander une adresse email et un mot de passe.",
+            "Ajouter une adresse email à un carnet d'adresses."
+         ]
+      },
+      {
+         "question":"Qu'est-ce qu'une entité dans ce contexte ?",
+         "goodAnswers":[
+            "Une table."
+         ],
+         "wrongAnswers":[
+            "Un formulaire.",
+            "Un champ de formulaire.",
+            "Une méthode."
+         ]
+      },
+      {
+         "question":"Pourquoi suffixe-t-on les noms des classes de formulaire par \"Type\" ?",
+         "goodAnswers":[
+            "Par convention pour faciliter la composition et l'intégration des formulaires."
+         ],
+         "wrongAnswers":[
+            "Pour distinguer les formulaires des autres classes.",
+            "Pour permettre à Symfony de reconnaître les formulaires.",
+            "Pour que les classes de formulaire soient plus faciles à trouver."
+         ]
+      },
+      {
+         "question":"Quelle est la méthode essentielle dans la classe NewsletterType ?",
+         "goodAnswers":[
+            "buildForm"
+         ],
+         "wrongAnswers":[
+            "configureOptions",
+            "getEmail",
+            "addForm"
+         ]
+      }
+   ]

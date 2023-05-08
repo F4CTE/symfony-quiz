@@ -1,0 +1,57 @@
+[
+   {
+      "question":"Qu'est-ce que le package symfony/asset ?",
+      "goodAnswers":[
+         "Un package pour gérer l'inclusion de fichiers statiques (CSS, JS, images) dans nos pages Symfony"
+      ],
+      "wrongAnswers":[
+         "Un package pour gérer le front-end de notre application Symfony",
+         "Un package pour créer des feuilles de style CSS dans Symfony",
+         "Un package pour gérer les templates Twig dans Symfony"
+      ]
+   },
+   {
+      "question":"Où doit-on créer un dossier pour y mettre nos fichiers CSS, JS et images dans Symfony ?",
+      "goodAnswers":[
+         "Dans le dossier public/ à la racine du projet"
+      ],
+      "wrongAnswers":[
+         "Dans le dossier config/",
+         "Dans le dossier src/",
+         "Dans le dossier var/"
+      ]
+   },
+   {
+      "question":"Comment inclure une feuille de style dans le template de base de notre application Symfony ?",
+      "goodAnswers":[
+         "En utilisant la fonction asset() fournie par le package symfony/asset dans Twig"
+      ],
+      "wrongAnswers":[
+         "En utilisant la balise <style>",
+         "En utilisant la balise <link> avec l'URL de la feuille de style",
+         "En utilisant la fonction stylesheet() fournie par le package symfony/asset dans Twig"
+      ]
+   },
+   {
+      "question":"Comment grouper des assets ensemble dans un package dans Symfony ?",
+      "goodAnswers":[
+         "En les définissant dans le fichier config/packages/framework.yaml avec un répertoire de base pour chaque package"
+      ],
+      "wrongAnswers":[
+         "En les mettant tous dans le même dossier public/",
+         "En les indiquant tous dans la même balise <link> dans le template",
+         "En les mettant tous dans le dossier src/"
+      ]
+   },
+   {
+      "question":"Comment configurer une politique de versioning pour nos assets dans Symfony ?",
+      "goodAnswers":[
+         "En configurant le fichier config/packages/framework.yaml avec la version et le format de versioning souhaités"
+      ],
+      "wrongAnswers":[
+         "En utilisant la fonction version() fournie par le package symfony/asset dans Twig",
+         "En définissant la version dans le nom du fichier de l'asset",
+         "En utilisant la fonction asset_version() fournie par le package symfony/asset dans Twig"
+      ]
+   }
+]
