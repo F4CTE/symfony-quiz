@@ -1,0 +1,46 @@
+[
+   {
+      "question":"Qu'est-ce que l'autowiring de Symfony ?",
+      "goodAnswers":[
+         "Un processus automatique permettant d'injecter des dépendances dans un service"
+      ],
+      "wrongAnswers":[
+         "Un processus manuel permettant d'injecter des dépendances dans un service",
+         "Un processus permettant d'injecter des dépendances uniquement dans les contrôleurs",
+         "Un processus permettant d'injecter des dépendances uniquement dans les repositories"
+      ]
+   },
+   {
+      "question":"Comment injecter un service dans un contrôleur en utilisant les type-hints ?",
+      "goodAnswers":[
+         "En utilisant les type-hints et en laissant Symfony rechercher le service correspondant dans le container de services"
+      ],
+      "wrongAnswers":[
+         "En recherchant manuellement le service dans le container de services",
+         "En spécifiant le nom du service dans les paramètres de la méthode",
+         "En créant un nouveau service dédié à chaque contrôleur"
+      ]
+   },
+   {
+      "question":"Quel type de classe peut être type-hinté dans les paramètres d'un contrôleur pour communiquer avec la base de données ?",
+      "goodAnswers":[
+         "L'interface EntityManagerInterface du package Doctrine"
+      ],
+      "wrongAnswers":[
+         "La classe Entity du package Doctrine",
+         "La classe EntityManager du package Doctrine",
+         "La classe Repository du package Doctrine"
+      ]
+   },
+   {
+      "question":"Qu'est-ce qu'un repository dans Symfony ?",
+      "goodAnswers":[
+         "Une classe permettant de récupérer des entités depuis la base de données"
+      ],
+      "wrongAnswers":[
+         "Une classe permettant de persister une entité dans la base de données",
+         "Une classe permettant de modifier des entités dans la base de données",
+         "Une classe permettant de supprimer des entités dans la base de données"
+      ]
+   }
+]

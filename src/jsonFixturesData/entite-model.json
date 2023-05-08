@@ -1,0 +1,47 @@
+[
+   {
+      "question":"Quel est l'outil utilisé pour créer des entités dans l'application ?",
+      "goodAnswers":["Maker"],
+      "wrongAnswers":[
+         "Symfony",
+         "Laravel",
+         "Doctrine"
+      ]
+   },
+   {
+      "question":"Où se trouve la classe d'entité générée par le Maker ?",
+      "goodAnswers":["Dans le dossier src/Entity"],
+      "wrongAnswers":[
+         "Dans le dossier src/Controller",
+         "Dans le dossier src/Repository",
+         "Dans le dossier migrations"
+      ]
+   },
+   {
+      "question":"Qu'est-ce qu'un repository ?",
+      "goodAnswers":["Un outil pour communiquer avec la base de données à propos d'une entité"],
+      "wrongAnswers":[
+         "Un outil pour créer des entités",
+         "Un outil pour générer des migrations",
+         "Un outil pour exécuter des mises à jour à la volée"
+      ]
+   },
+   {
+      "question":"Comment met-on à jour la base de données avec les migrations ?",
+      "goodAnswers":["En exécutant la commande php bin/console doctrine:migrations:migrate"],
+      "wrongAnswers":[
+         "En exécutant la commande php bin/console make:migration",
+         "En exécutant la commande php bin/console doctrine:schema:update --dump-sql",
+         "En exécutant la commande php bin/console doctrine:schema:update --force"
+      ]
+   },
+   {
+      "question":"Quel est l'avantage principal de l'approche avec les migrations pour la base de données ?",
+      "goodAnswers":["Elle permet de gérer les évolutions de structures de manière rigoureuse"],
+      "wrongAnswers":[
+         "Elle est plus rapide que les mises à jour à la volée",
+         "Elle ne génère aucun fichier de migration",
+         "Elle ne nécessite pas de préparation préalable"
+      ]
+   }
+]

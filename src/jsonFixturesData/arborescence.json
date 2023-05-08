@@ -1,0 +1,47 @@
+[
+   {
+      "question":"Quel est le dossier qui contient les fichiers de configuration des packages utilisés dans l'application ?",
+      "goodAnswers":["/config"],
+      "wrongAnswers":[
+         "/templates",
+         "/src",
+         "/public"
+      ]
+   },
+   {
+      "question":"Où se trouvent les classes de l'application ?",
+      "goodAnswers":["/src"],
+      "wrongAnswers":[
+         "/public",
+         "/vendor",
+         "/tests"
+      ]
+   },
+   {
+      "question":"À quoi sert le fichier .env ?",
+      "goodAnswers":["À définir les variables d'environnement de l'application"],
+      "wrongAnswers":[
+         "À stocker les fichiers de cache et de logs",
+         "À exécuter des recettes lors de l'installation de dépendances",
+         "À décrire les services à instancier pour Docker"
+      ]
+   },
+   {
+      "question":"Quel est le fichier de configuration de PHPUnit ?",
+      "goodAnswers":["phpunit.xml.dist"],
+      "wrongAnswers":[
+         ".env",
+         "composer.json",
+         "docker-compose.override.yml"
+      ]
+   },
+   {
+      "question":"À quoi sert le fichier composer.lock ?",
+      "goodAnswers":["À regrouper les versions des dépendances installées"],
+      "wrongAnswers":[
+         "À stocker les fichiers de cache et de logs",
+         "À définir les variables d'environnement de l'application",
+         "À décrire les services à instancier pour Docker"
+      ]
+   }
+]

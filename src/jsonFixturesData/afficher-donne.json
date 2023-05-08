@@ -1,0 +1,101 @@
+[
+      {
+         "question":"Quel est le pattern utilisé par Symfony pour la séparation des responsabilités entre le modèle, la vue et le contrôleur ?",
+         "goodAnswers":[
+            "MVC"
+         ],
+         "wrongAnswers":[
+            "MVP",
+            "MVVM",
+            "MVW"
+         ]
+      },
+      {
+         "question":"Quel est le rôle du contrôleur dans le pattern MVC de Symfony ?",
+         "goodAnswers":[
+            "Agir en tant que \"glue\" entre le modèle et le contrôleur"
+         ],
+         "wrongAnswers":[
+            "Agir en tant que \"glue\" entre la vue et le contrôleur",
+            "Agir en tant que \"glue\" entre le modèle et la vue",
+            "Agir en tant que \"glue\" entre les entités et la base de données"
+         ]
+      },
+      {
+         "question":"Qu'est-ce qu'un repository dans Symfony ?",
+         "goodAnswers":[
+            "Une classe permettant de manipuler les entités dans la base de données"
+         ],
+         "wrongAnswers":[
+            "Une classe permettant de manipuler les entités dans la mémoire vive",
+            "Une classe permettant de manipuler les entités dans les templates Twig",
+            "Une classe permettant de manipuler les entités dans le contrôleur"
+         ]
+      },
+      {
+         "question":"Quel est l'intérêt d'un ORM ?",
+         "goodAnswers":[
+            "Éviter d'avoir à écrire des requêtes SQL à la main"
+         ],
+         "wrongAnswers":[
+            "Optimiser les requêtes SQL en utilisant des index",
+            "Limiter l'accès à la base de données en utilisant des vues",
+            "Réduire le nombre de requêtes SQL en utilisant des transactions"
+         ]
+      },
+      {
+         "question":"Qu'est-ce que l'injection de dépendances ?",
+         "goodAnswers":[
+            "Une technique permettant de déléguer l'instanciation des services à Symfony"
+         ],
+         "wrongAnswers":[
+            "Une technique permettant de déléguer l'instanciation des entités à Symfony",
+            "Une technique permettant de déléguer l'instanciation des templates à Symfony",
+            "Une technique permettant de déléguer l'instanciation des contrôleurs à Symfony"
+         ]
+      },
+      {
+         "question":"Qu'est-ce que le type-hinting ?",
+         "goodAnswers":[
+            "Une technique permettant de spécifier le type attendu pour un argument de méthode"
+         ],
+         "wrongAnswers":[
+            "Une technique permettant de spécifier le type d'une entité dans la base de données",
+            "Une technique permettant de spécifier le type d'un template Twig",
+            "Une technique permettant de spécifier le type d'une variable dans le contrôleur"
+         ]
+      },
+      {
+         "question":"Qu'est-ce que l'inversion de contrôle (IoC) ?",
+         "goodAnswers":[
+            "Une technique permettant de déléguer le contrôle de l'instanciation des services à Symfony"
+         ],
+         "wrongAnswers":[
+            "Une technique permettant de déléguer le contrôle de l'instanciation des entités à Symfony",
+            "Une technique permettant de déléguer le contrôle de l'instanciation des templates à Symfony",
+            "Une technique permettant de déléguer le contrôle de l'instanciation des contrôleurs à Symfony"
+         ]
+      },
+      {
+         "question":"Comment afficher les éléments d'une collection dans une vue Twig ?",
+         "goodAnswers":[
+            "En utilisant uneboucle for"
+         ],
+         "wrongAnswers":[
+            "En utilisant une boucle while",
+            "En utilisant une boucle foreach",
+            "En utilisant une boucle do...while"
+         ]
+      },
+      {
+         "question":"Qu'est-ce que le filtre length de Twig ?",
+         "goodAnswers":[
+            "Un filtre permettant de compter le nombre d'éléments dans une collection"
+         ],
+         "wrongAnswers":[
+            "Un filtre permettant de trier les éléments d'une collection par ordre alphabétique",
+            "Un filtre permettant de limiter le nombre d'éléments affichés dans une collection",
+            "Un filtre permettant de formater une date dans une chaîne de caractères"
+         ]
+      }
+   ]

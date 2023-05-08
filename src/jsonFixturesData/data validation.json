@@ -1,0 +1,57 @@
+[
+   {
+      "question":"Quel est le composant de Symfony responsable de la validation des données?",
+      "goodAnswers":[
+         "Le composant Validator"
+      ],
+      "wrongAnswers":[
+         "Le composant Form",
+         "Le composant ORM",
+         "Le composant Security"
+      ]
+   },
+   {
+      "question":"Comment s'assurer que les données d'un formulaire sont valides avec Symfony ?",
+      "goodAnswers":[
+         "En utilisant la méthode \"isSubmitted()\"",
+         "En utilisant la méthode \"isValid()\""
+      ],
+      "wrongAnswers":[
+         "En utilisant la méthode \"handleRequest()\"",
+         "En utilisant la méthode \"createForm()\""
+      ]
+   },
+   {
+      "question":"Comment ajouter une contrainte de validation sur un champ d'une entité avec Symfony ?",
+      "goodAnswers":[
+         "En utilisant des annotations"
+      ],
+      "wrongAnswers":[
+         "En modifiant directement la base de données",
+         "En utilisant des balises HTML",
+         "En écrivant du code JavaScript"
+      ]
+   },
+   {
+      "question":"Où peut-on retrouver toutes les contraintes de validation disponibles dans Symfony ?",
+      "goodAnswers":[
+         "Dans la documentation de Symfony"
+      ],
+      "wrongAnswers":[
+         "Dans le fichier de configuration du projet",
+         "En utilisant la commande \"php bin/console debug:validator\"",
+         "En utilisant la commande \"php bin/console list\""
+      ]
+   },
+   {
+      "question":"Comment indiquer que le champ \"email\" d'une entité doit avoir le format d'un email ?",
+      "goodAnswers":[
+         "En ajoutant une contrainte \"Email\" sur le champ"
+      ],
+      "wrongAnswers":[
+         "En ajoutant une contrainte \"Length\" sur le champ",
+         "En ajoutant une contrainte \"NotBlank\" sur le champ",
+         "En ajoutant une contrainte \"Type\" sur le champ."
+      ]
+   }
+]

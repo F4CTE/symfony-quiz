@@ -1,0 +1,46 @@
+[
+      {
+         "question":"Que doit-on faire pour envoyer des notifications Discord avec notre application ?",
+         "goodAnswers":[
+            "Ajouter une méthode à notre subscriber actuel",
+            "Installer un package pour envoyer des notifications Discord"
+         ],
+         "wrongAnswers":[
+            "Créer une nouvelle classe",
+            "Utiliser une classe existante pour envoyer des notifications Discord"
+         ]
+      },
+      {
+         "question":"Quelles sont les étapes à suivre pour installer et configurer les notifications Discord ?",
+         "goodAnswers":[
+            "Créer un webhook dans le canal d'un serveur Discord",
+            "Installer le package symfony/discord-notifier dans notre application",
+            "Configurer une variable d'environnement DISCORD_DSN"
+         ],
+         "wrongAnswers":[
+            "Créer une nouvelle classe"
+         ]
+      },
+      {
+         "question":"Comment ajouter une méthode pour envoyer des notifications Discord dans la classe NewsletterRegisteredSubscriber ?",
+         "goodAnswers":[
+            "En utilisant la méthode sendDiscordNotification"
+         ],
+         "wrongAnswers":[
+            "En utilisant la méthode sendConfirmationEmail",
+            "En créant une nouvelle classe",
+            "En utilisant la méthode getSubscribedEvents"
+         ]
+      },
+      {
+         "question":"Comment peut-on définir l'ordre d'exécution des méthodes pour envoyer des notifications dans la classe NewsletterRegisteredSubscriber ?",
+         "goodAnswers":[
+            "En assignant des priorités à chaque méthode"
+         ],
+         "wrongAnswers":[
+            "En utilisant les numéros 1, 2, 3, etc.",
+            "En utilisant les lettres A, B, C, etc.",
+            "En utilisant les noms des méthodes"
+         ]
+      }
+   ]

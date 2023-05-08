@@ -1,0 +1,46 @@
+[
+   {
+      "question":"Qu'est-ce que les messages flash dans Symfony ?",
+      "goodAnswers":[
+         "Un système de notifications pour les utilisateurs.",
+         "Un système de stockage en session de données temporaires."
+      ],
+      "wrongAnswers":[
+         "Un système de cache pour améliorer les performances.",
+         "Un système de chiffrement pour sécuriser les données."
+      ]
+   },
+   {
+      "question":"Comment ajouter un message flash dans un contrôleur Symfony ?",
+      "goodAnswers":[
+         "En utilisant la méthode \"addFlash\" du contrôleur."
+      ],
+      "wrongAnswers":[
+         "En créant une variable \"flash\" dans le contrôleur.",
+         "En utilisant la méthode \"setFlash\" du formulaire.",
+         "En écrivant directement dans la session."
+      ]
+   },
+   {
+      "question":"Comment afficher les messages flash dans un template Twig ?",
+      "goodAnswers":[
+         "En utilisant la variable globale \"app\" et plus précisément \"app.flashes\"."
+      ],
+      "wrongAnswers":[
+         "En utilisant la variable globale \"flash\" dans le template.",
+         "En utilisant la méthode \"getFlash\" du formulaire.",
+         "En écrivant directement dans la session."
+      ]
+   },
+   {
+      "question":"Comment classer les messages flash dans des catégories ?",
+      "goodAnswers":[
+         "En utilisant des types lors de l'ajout de messages avec la méthode \"addFlash\"."
+      ],
+      "wrongAnswers":[
+         "En créant des variables de session avec des noms de catégories.",
+         "En écrivant directement dans la session avec des noms de catégories.",
+         "En utilisant la méthode \"setCategory\" du formulaire."
+      ]
+   }
+]

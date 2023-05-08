@@ -1,0 +1,57 @@
+[
+      {
+         "question":"À quoi sert l'utilisation d'événements dans Symfony ?",
+         "goodAnswers":[
+            "À découpler le code et rendre l'application plus flexible"
+         ],
+         "wrongAnswers":[
+            "À faciliter le débogage des erreurs",
+            "À accélérer l'exécution du code",
+            "Aucune des réponses ci-dessus"
+         ]
+      },
+      {
+         "question":"Comment peut-on définir un événement personnalisé dans Symfony ?",
+         "goodAnswers":[
+            "En utilisant le Maker Bundle de Symfony"
+         ],
+         "wrongAnswers":[
+            "En modifiant la classe Kernel de Symfony",
+            "En créant une nouvelle route dans l'application",
+            "Aucune des réponses ci-dessus"
+         ]
+      },
+      {
+         "question":"Qu'est-ce que la donnée associée à un événement personnalisé ?",
+         "goodAnswers":[
+            "La donnée utile que l'événement doit porter pour être exploité par des listeners ou des subscribers"
+         ],
+         "wrongAnswers":[
+            "Le nom de l'événement",
+            "La classe d'événement",
+            "Aucune des réponses ci-dessus"
+         ]
+      },
+      {
+         "question":"Comment peut-on diffuser un événement dans Symfony ?",
+         "goodAnswers":[
+            "En utilisant la méthode dispatch() du dispatcher de Symfony"
+         ],
+         "wrongAnswers":[
+            "En utilisant la méthode send() de la classe MailerInterface",
+            "En créant une nouvelle instance de la classe Kernel de Symfony",
+            "Aucune des réponses ci-dessus"
+         ]
+      },
+      {
+         "question":"Comment peut-on réagir à un événement personnalisé dans Symfony ?",
+         "goodAnswers":[
+            "En créant un listener ou un subscriber qui écoutera l'événement"
+         ],
+         "wrongAnswers":[
+            "En modifiant directement le code du contrôleur",
+            "En créant une nouvelle classe d'événement",
+            "Aucune des réponses ci-dessus"
+         ]
+      }
+   ]

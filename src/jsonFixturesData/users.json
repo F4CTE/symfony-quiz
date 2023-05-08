@@ -1,0 +1,46 @@
+[
+   {
+      "question":"Quel est l'intérêt de la commande make:user par rapport à la commande make:entity ?",
+      "goodAnswers":[
+         "La commande make:user crée une entité utilisateur compatible avec le composant de sécurité de Symfony.",
+         "La commande make:user crée une entité différente d'une entité classique."
+      ],
+      "wrongAnswers":[
+         "La commande make:user permet de créer une entité avec des champs supplémentaires.",
+         "La commande make:user ne sert à rien, il faut utiliser make:entity pour tout créer."
+      ]
+   },
+   {
+      "question":"Quelles sont les interfaces implémentées par une entité utilisateur créée avec la commande make:user ?",
+      "goodAnswers":[
+         "UserInterface",
+         "PasswordAuthenticatedUserInterface"
+      ],
+      "wrongAnswers":[
+         "EntityInterface",
+         "UserAuthenticatedInterface"
+      ]
+   },
+   {
+      "question":"Comment sont gérés les rôles d'un utilisateur dans Symfony ?",
+      "goodAnswers":[
+         "Sous forme de tableau (array)."
+      ],
+      "wrongAnswers":[
+         "Sous forme de champ texte en base de données.",
+         "Sous forme d'un champ json.",
+         "Symfony ne gère pas les rôles d'un utilisateur."
+      ]
+   },
+   {
+      "question":"Que se passe-t-il lorsque l'on exécute la commande make:user ?",
+      "goodAnswers":[
+         "Toutes les réponses précédentes sont correctes."
+      ],
+      "wrongAnswers":[
+         "Une entité utilisateur est créée et enregistrée auprès du composant de sécurité.",
+         "Un fournisseur d'utilisateurs est enregistré auprès du composant de sécurité.",
+         "Un password_hasher est enregistré dans la configuration du composant de sécurité."
+      ]
+   }
+]

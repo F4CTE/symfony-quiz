@@ -1,0 +1,38 @@
+[
+   {
+      "question":"Quel est le package utilisé pour générer des fixtures en Symfony ?",
+      "goodAnswers":["doctrine/doctrine-fixtures-bundle"],
+      "wrongAnswers":[
+         "orm-fixtures",
+         "symfony-fixtures",
+         "fakerphp/faker"
+      ]
+   },
+   {
+      "question":"Quelle est la méthode qui permet de créer des enregistrements en base de données avec les fixtures ?",
+      "goodAnswers":["persist()"],
+      "wrongAnswers":[
+         "load()",
+         "flush()",
+         "create()"
+      ]
+   },
+   {
+      "question":"Quelle est la méthode qui permet de valider les changements effectués en base de données avec les fixtures ?",
+      "goodAnswers":["flush()"],
+      "wrongAnswers":[
+         "load()",
+         "persist()",
+         "create()"
+      ]
+   },
+   {
+      "question":"Quelle est la librairie utilisée pour générer des données aléatoires avec les fixtures en Symfony ?",
+      "goodAnswers":["fakerphp/faker"],
+      "wrongAnswers":[
+         "orm-fixtures",
+         "symfony-fixtures",
+         "doctrine/doctrine-fixtures-bundle"
+      ]
+   }
+]

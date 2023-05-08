@@ -1,0 +1,57 @@
+[
+   {
+      "question":"Qu'est-ce que le Security Bundle dans Symfony ?",
+      "goodAnswers":[
+         "Un bundle pour gérer la sécurité d'une application Symfony"
+      ],
+      "wrongAnswers":[
+         "Un bundle pour ajouter des fonctionnalités de design à une application Symfony",
+         "Un bundle pour optimiser les requêtes SQL d'une application Symfony",
+         "Un bundle pour ajouter des fonctionnalités de cache à une application Symfony"
+      ]
+   },
+   {
+      "question":"Quels packages sont inclus dans le Security Bundle ?",
+      "goodAnswers":[
+         "symfony/security-core",
+         "symfony/security-csrf",
+         "symfony/security-http"
+      ],
+      "wrongAnswers":[
+         "symfony/form"
+      ]
+   },
+   {
+      "question":"À quoi sert le bundle de sécurité dans Symfony ?",
+      "goodAnswers":[
+         "À ajouter des fonctionnalités d'authentification, d'autorisation et de contrôle d'accès à une application Symfony"
+      ],
+      "wrongAnswers":[
+         "À ajouter des fonctionnalités de gestion de base de données à une application Symfony",
+         "À ajouter des fonctionnalités de cache à une application Symfony",
+         "À ajouter des fonctionnalités de design à une application Symfony"
+      ]
+   },
+   {
+      "question":"Quelle est la fonctionnalité principale du package symfony/security-core ?",
+      "goodAnswers":[
+         "Gérer les tokens d'authentification dans une application Symfony"
+      ],
+      "wrongAnswers":[
+         "Gérer les sessions utilisateur dans une application Symfony",
+         "Gérer les formulaires dans une application Symfony",
+         "Gérer les requêtes HTTP dans une application Symfony"
+      ]
+   },
+   {
+      "question":"Quelle est la fonctionnalité principale du package symfony/security-csrf ?",
+      "goodAnswers":[
+         "Gérer les attaques CSRF dans une application Symfony"
+      ],
+      "wrongAnswers":[
+         "Gérer les tokens d'authentification dans une application Symfony",
+         "Gérer les sessions utilisateur dans une application Symfony",
+         "Gérer les formulaires dans une application Symfony"
+      ]
+   }
+]

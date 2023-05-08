@@ -1,0 +1,72 @@
+[
+   {
+      "question":"Que signifie ORM ?",
+      "goodAnswers":["Object Relational Mapping"],
+      "wrongAnswers":[
+         "Object Relational Model"
+      ]
+   },
+   {
+      "question":"Quelle est la relation entre les entités Article et Category dans l'exemple donné ?",
+      "goodAnswers":["Une relation OneToMany"],
+      "wrongAnswers":[
+         "Une relation ManyToMany",
+         "Une relation OneToOne",
+         "Aucune relation n'a été définie entre les deux entités"
+      ]
+   },
+   {
+      "question":"Comment récupérer tous les articles d'une catégorie avec l'objet $category ?",
+      "goodAnswers":["$category->getArticles()"],
+      "wrongAnswers":[
+         "$category->articles",
+         "$category->get('articles')",
+         "$category->getMany('articles')"
+      ]
+   },
+   {
+      "question":"Comment récupérer la catégorie d'un article avec l'objet $article ?",
+      "goodAnswers":["$article->getCategory()"],
+      "wrongAnswers":[
+         "$article->get('category')",
+         "$article->category",
+         "$article->getOne('category')"
+      ]
+   },
+   {
+      "question":"Comment Doctrine gère-t-il les clés étrangères dans la base de données ?",
+      "goodAnswers":["Doctrine se charge de créer l'élément de structure approprié dans la base de données."],
+      "wrongAnswers":[
+         "Doctrine crée les clés étrangères automatiquement.",
+         "Doctrine ne gère pas les clés étrangères dans la base de données.",
+         "Doctrine gère les clés étrangères manuellement via le code."
+      ]
+   },
+   {
+      "question":"Que sont les fixtures ?",
+      "goodAnswers":["Des outils pour générer des données de test dans la base de données."],
+      "wrongAnswers":[
+         "Des outils pour gérer les migrations de la base de données.",
+         "Des outils pour gérer les associations entre les entités dans la base de données.",
+         "Des outils pour générer automatiquement des requêtes SQL."
+      ]
+   },
+   {
+      "question":"Comment peut-on créer des articles avec des catégories reliées automatiquement via les fixtures ?",
+      "goodAnswers":["En créant manuellement les articles et les catégories dans les fixtures via deux boucles."],
+      "wrongAnswers":[
+         "En utilisant l'intégration d'ORM présente dans la librairie Faker.",
+         "En exécutant une migration pour lier les articles et les catégories.",
+         "En utilisant la console de Symfony pour générer les articles et les catégories."
+      ]
+   },
+   {
+      "question":"Comment établir des relations entre entités dans Symfony ?",
+      "goodAnswers":["En utilisant des liens directs vers des instances de classes dans les classes concernées."],
+      "wrongAnswers":[
+         "En déclarant des clés étrangères dans les classes concernées.",
+         "En utilisant des commandes de la console de Symfony pour lier les entités.",
+         "En établissant des relations via des fichiers YAML."
+      ]
+   }
+]

@@ -1,0 +1,79 @@
+[
+   {
+      "question":"Qu'est-ce que CRUD signifie ?",
+      "goodAnswers":[
+         "Create/Read/Update/Delete"
+      ],
+      "wrongAnswers":[
+         "Create/Read/Update/Destroy",
+         "Compute/Read/Update/Delete",
+         "Control/Retrieve/Understand/Delete"
+      ]
+   },
+   {
+      "question":"Comment peut-on générer une interface d'administration complète pour une entité avec Symfony ?",
+      "goodAnswers":[
+         "En utilisant la commande \"php bin/console make:crud\""
+      ],
+      "wrongAnswers":[
+         "En écrivant manuellement chaque fichier nécessaire",
+         "En utilisant le EasyAdmin Bundle",
+         "En créant un contrôleur spécifique pour chaque action"
+      ]
+   },
+   {
+      "question":"Combien de méthodes de contrôleurs sont générées avec la commande \"php bin/console make:crud\" ?",
+      "goodAnswers":[
+         "5"
+      ],
+      "wrongAnswers":[
+         "2",
+         "3",
+         "4"
+      ]
+   },
+   {
+      "question":"Quel est l'attribut utilisé au-dessus d'une classe de contrôleurs pour définir un préfixe pour tous les contrôleurs se trouvant dans la classe ?",
+      "goodAnswers":[
+         "@Route"
+      ],
+      "wrongAnswers":[
+         "@Prefix",
+         "@RoutePrefix",
+         "@ControllerPrefix"
+      ]
+   },
+   {
+      "question":"Quel est le principe de la protection CSRF ?",
+      "goodAnswers":[
+         "S'assurer que la requête POST est bien passée par le formulaire au préalable"
+      ],
+      "wrongAnswers":[
+         "Empêcher l'utilisation de requêtes GET",
+         "Empêcher la soumission de formulaires",
+         "Vérifier l'identité de l'utilisateur avant chaque action"
+      ]
+   },
+   {
+      "question":"Qu'est-ce que l'EntityType dans Symfony ?",
+      "goodAnswers":[
+         "Un type de champ spécifique aux entités Doctrine"
+      ],
+      "wrongAnswers":[
+         "Un type de champ permettant de sélectionner un ou plusieurs éléments au sein d'une collection",
+         "Un type de champ permettant de saisir un identifiant d'entité manuellement",
+         "Un type de champ permettant de saisir une date et une heure"
+      ]
+   },
+   {
+      "question":"Quel est le bundle Symfony le plus populaire pour générer des interfaces d'administration complètes ?",
+      "goodAnswers":[
+         "EasyAdmin Bundle"
+      ],
+      "wrongAnswers":[
+         "AdminBundle",
+         "CRUDBundle",
+         "AdminInterfaceBundle"
+      ]
+   }
+]

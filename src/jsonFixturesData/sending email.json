@@ -1,0 +1,46 @@
+[
+   {
+      "question":"Pourquoi utilise-t-on le composant symfony/mailer dans notre fonctionnalité d'enregistrement d'email à la newsletter ?",
+      "goodAnswers":[
+         "Pour envoyer des emails à l'utilisateur."
+      ],
+      "wrongAnswers":[
+         "Pour installer Symfony comme un framework.",
+         "Pour retrouver les dépendances de l'application.",
+         "Pour utiliser un contrôleur dans Symfony."
+      ]
+   },
+   {
+      "question":"Comment peut-on implémenter le service d'envoi d'email à la newsletter ?",
+      "goodAnswers":[
+         "En créant une classe PHP pour le service d'envoi d'email."
+      ],
+      "wrongAnswers":[
+         "En créant une fonction dans un contrôleur Symfony.",
+         "En utilisant une bibliothèque tierce pour l'envoi d'email.",
+         "En n'implémentant pas le service d'envoi d'email du tout."
+      ]
+   },
+   {
+      "question":"Dans quelle section du fichier composer.json peut-on retrouver la dépendance symfony/mailer ?",
+      "goodAnswers":[
+         "\"require\"."
+      ],
+      "wrongAnswers":[
+         "\"repositories\".",
+         "\"autoload\".",
+         "\"config\"."
+      ]
+   },
+   {
+      "question":"Comment peut-on utiliser le service d'envoi d'email dans un contrôleur Symfony ?",
+      "goodAnswers":[
+         "En utilisant l'injection de dépendances pour injecter la classe d'envoi d'email dans le contrôleur."
+      ],
+      "wrongAnswers":[
+         "En utilisant la méthode \"new\" pour instancier la classe d'envoi d'email.",
+         "En utilisant le mot-clé \"use\" pour importer la classe d'envoi d'email.",
+         "En appelant directement la méthode \"send\" de la classe symfony/mailer."
+      ]
+   }
+]

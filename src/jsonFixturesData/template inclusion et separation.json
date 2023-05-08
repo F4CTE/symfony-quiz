@@ -1,0 +1,46 @@
+[
+      {
+         "question":"Qu'est-ce que la méthode 'include' de Twig permet de faire ?",
+         "goodAnswers":[
+            "Elle permet de séparer des bouts de templates et de les importer dans d'autres templates"
+         ],
+         "wrongAnswers":[
+            "Elle permet d'afficher du contenu dans un seul template",
+            "Elle permet de créer des variables dans un template",
+            "Elle permet de changer le chemin des templates"
+         ]
+      },
+      {
+         "question":"Comment peut-on séparer le code qui génère une 'card' Bootstrap dans un template Twig ?",
+         "goodAnswers":[
+            "En utilisant la méthode 'include'"
+         ],
+         "wrongAnswers":[
+            "En utilisant la méthode 'extend'",
+            "En utilisant la méthode 'render'",
+            "En utilisant la méthode 'block'"
+         ]
+      },
+      {
+         "question":"Pourquoi doit-on faire attention au chemin vers le template lorsqu'on utilise la méthode 'include' ?",
+         "goodAnswers":[
+            "Parce que le chemin doit toujours être relatif au dossier racine de templates, défini dans la configuration du package Twig"
+         ],
+         "wrongAnswers":[
+            "Parce que le chemin doit toujours être absolu",
+            "Parce que le chemin doit toujours être relatif à la racine du site web",
+            "Parce que le chemin doit toujours être relatif au dossier contenant le fichier qui inclut le template"
+         ]
+      },
+      {
+         "question":"Comment peut-on réaliser une barre de navigation en utilisant la méthode 'include' de Twig ?",
+         "goodAnswers":[
+            "En créant un template isolé représentant la barre de menu, puis en utilisant la méthode 'include' dans le layout principal (fichier base.html.twig)"
+         ],
+         "wrongAnswers":[
+            "En créant un template isolé représentant la barre de menu, puis en utilisant la méthode 'extend' dans le layout principal (fichier base.html.twig)",
+            "En créant un template isolé représentant la barre de menu, puis en utilisant la méthode 'render' dans le layout principal (fichier base.html.twig)",
+            "En créant un template isolé représentant la barre de menu, puis en utilisant la méthode 'block' dans le layout principal (fichier base.html.twig)"
+         ]
+      }
+   ]

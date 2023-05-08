@@ -1,0 +1,57 @@
+[
+   {
+      "question":"Que doit transmettre le contrôleur à la vue pour afficher le formulaire ?",
+      "goodAnswers":[
+         "Un objet FormView"
+      ],
+      "wrongAnswers":[
+         "Un objet NewsletterType",
+         "Un objet Twig",
+         "Un objet Request"
+      ]
+   },
+   {
+      "question":"Que se passe-t-il si on utilise la méthode renderForm dans un contrôleur ?",
+      "goodAnswers":[
+         "Symfony crée automatiquement l'objet FormView"
+      ],
+      "wrongAnswers":[
+         "Le formulaire ne s'affiche pas",
+         "Il faut créer manuellement l'objet FormView",
+         "Le formulaire s'affiche mais avec des erreurs"
+      ]
+   },
+   {
+      "question":"Comment peut-on afficher le formulaire dans la vue avec Twig ?",
+      "goodAnswers":[
+         "En utilisant la méthode form"
+      ],
+      "wrongAnswers":[
+         "En utilisant la méthode renderForm",
+         "En créant manuellement le code HTML du formulaire",
+         "En utilisant la méthode render de Symfony"
+      ]
+   },
+   {
+      "question":"Comment peut-on avoir plus de contrôle sur la façon dont on souhaite afficher le formulaire ?",
+      "goodAnswers":[
+         "En utilisant les méthodes personnalisées disponibles dans Twig"
+      ],
+      "wrongAnswers":[
+         "En créant un nouveau contrôleur",
+         "En modifiant la configuration de Symfony",
+         "En créant manuellement le code HTML du formulaire"
+      ]
+   },
+   {
+      "question":"Comment peut-on appliquer un thème au formulaire dans Symfony ?",
+      "goodAnswers":[
+         "En utilisant un thème fourni par Symfony et en l'indiquant dans la configuration de Twig"
+      ],
+      "wrongAnswers":[
+         "En modifiant la configuration de Symfony",
+         "En créant manuellement le code CSS du formulaire",
+         "En utilisant les méthodes personnalisées disponibles dans Twig"
+      ]
+   }
+]

@@ -1,0 +1,47 @@
+[
+   {
+      "question":"Qu'est-ce que Doctrine ?",
+      "goodAnswers":["Un outil pour gérer des bases de données"],
+      "wrongAnswers":[
+         "Un outil pour créer des interfaces utilisateur",
+         "Un outil pour créer des animations en JavaScript",
+         "Un outil pour tester des applications"
+      ]
+   },
+   {
+      "question":"Que permet de faire Doctrine dans Symfony ?",
+      "goodAnswers":["Tout ce qui précède"],
+      "wrongAnswers":[
+         "Créer des classes représentant le modèle de la base de données",
+         "Convertir les classes en tables dans la base de données configurée",
+         "Créer des repositories pour communiquer avec la base de données"
+      ]
+   },
+   {
+      "question":"Que sont les entités dans Doctrine ?",
+      "goodAnswers":["Des classes qui représentent le modèle de la base de données"],
+      "wrongAnswers":[
+         "Des tables dans la base de données",
+         "Des classes qui permettent de communiquer avec la base de données",
+         "Des interfaces utilisateur"
+      ]
+   },
+   {
+      "question":"Que sont les repositories dans Doctrine ?",
+      "goodAnswers":["Des classes enregistrées par Symfony pour communiquer avec la base de données"],
+      "wrongAnswers":[
+         "Des interfaces utilisateur pour afficher les données de la base de données",
+         "Des tables dans la base de données",
+         "Des classes qui représentent le modèle de la base de données"
+      ]
+   },
+   {
+      "question":"Comment configure-t-on l'accès à la base de données dans Symfony ?",
+      "goodAnswers":["En renseignant les coordonnées d'accès dans le fichier .env.local"],
+      "wrongAnswers":[
+         "En créant un fichier .txt avec les coordonnées d'accès",
+         "En créant une interface utilisateur pour entrer les coordonnées d'accès",
+         "En utilisant la console pour créer des entités"
+      ]
+   }
+]

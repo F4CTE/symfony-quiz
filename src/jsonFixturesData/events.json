@@ -1,0 +1,57 @@
+[
+      {
+         "question":"Qu'est-ce que l'écosystème Symfony ?",
+         "goodAnswers":[
+            "Plusieurs packages définissant des fonctionnalités différentes"
+         ],
+         "wrongAnswers":[
+            "Un seul composant portant plusieurs fonctionnalités",
+            "Plusieurs écosystèmes portant chacun une fonctionnalité différente",
+            "Un package définissant une fonctionnalité unique"
+         ]
+      },
+      {
+         "question":"Que signifie l'extensibilité dans l'écosystème Symfony ?",
+         "goodAnswers":[
+            "Ajouter des comportements spécifiques aux comportements prévus à l'origine par les créateurs d'un package"
+         ],
+         "wrongAnswers":[
+            "Supprimer les comportements prévus à l'origine par les créateurs d'un package",
+            "Modifier les comportements prévus à l'origine par les créateurs d'un package",
+            "Ne pas ajouter de nouveaux comportements aux packages existants"
+         ]
+      },
+      {
+         "question":"Comment les événements sont-ils utilisés dans Symfony ?",
+         "goodAnswers":[
+            "Pour définir des points dans l'application où l'exécution d'un autre code est autorisée"
+         ],
+         "wrongAnswers":[
+            "Pour modifier les comportements prévus à l'origine par les créateurs d'un package",
+            "Pour ajouter des comportements spécifiques aux comportements prévus à l'origine par les créateurs d'un package",
+            "Pour supprimer les comportements prévus à l'origine par les créateurs d'un package"
+         ]
+      },
+      {
+         "question":"Qu'est-ce que le design pattern Observer ?",
+         "goodAnswers":[
+            "Un design pattern permettant d'écouter des événements dans une application"
+         ],
+         "wrongAnswers":[
+            "Un design pattern permettant de diffuser des événements dans une application",
+            "Un design pattern permettant d'ajouter des comportements spécifiques aux comportements prévus à l'origine par les créateurs d'un package",
+            "Un design pattern permettant de supprimer des comportements prévus à l'origine par les créateurs d'un package"
+         ]
+      },
+      {
+         "question":"Quel est le composant Symfony utilisé pour enregistrer et appeler des événements ?",
+         "goodAnswers":[
+            "symfony/event-dispatcher"
+         ],
+         "wrongAnswers":[
+            "symfony/event",
+            "symfony/dispatcher",
+            "symfony/event-listener"
+         ]
+      }
+   ]

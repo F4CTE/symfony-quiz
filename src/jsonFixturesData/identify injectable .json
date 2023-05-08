@@ -1,0 +1,57 @@
+[
+   {
+      "question":"Quel est le nom de la commande pour afficher la liste des services disponibles concernant le mot-clé \"Mailer\" ?",
+      "goodAnswers":[
+         "php bin/console debug:container Mailer"
+      ],
+      "wrongAnswers":[
+         "php bin/console debug:services Mailer",
+         "php bin/console container:debug Mailer",
+         "php bin/console list Mailer"
+      ]
+   },
+   {
+      "question":"Quel est l'identifiant de service du service \"mailer\" ?",
+      "goodAnswers":[
+         "mailer.mailer"
+      ],
+      "wrongAnswers":[
+         "symfony/mailer.mailer",
+         "mailer.symfony",
+         "symfony/mailer"
+      ]
+   },
+   {
+      "question":"Pourquoi ne peut-on pas injecter directement le service \"mailer\" dans notre contrôleur ?",
+      "goodAnswers":[
+         "Parce que ce service n'est pas indiqué comme étant autowiré."
+      ],
+      "wrongAnswers":[
+         "Parce que la classe concernée ne se trouve pas dans le composant symfony/mailer.",
+         "Parce que son identifiant de service est indiqué comme étant autowiré.",
+         "Parce qu'il n'y a pas de documentation pour utiliser ce service."
+      ]
+   },
+   {
+      "question":"Quel est le type à type-hinter pour envoyer des emails avec le composant mailer de Symfony ?",
+      "goodAnswers":[
+         "Symfony\\Component\\Mailer\\MailerInterface"
+      ],
+      "wrongAnswers":[
+         "Symfony\\Component\\Mail\\Mail",
+         "Symfony\\Component\\Mailer\\Email",
+         "Symfony\\Component\\Mailer\\Mailer"
+      ]
+   },
+   {
+      "question":"Dans quelle méthode du contrôleur peut-on injecter le service \"mailer\" ?",
+      "goodAnswers":[
+         "La méthode \"register\"."
+      ],
+      "wrongAnswers":[
+         "La méthode \"sendEmail\".",
+         "La méthode \"createEmail\".",
+         "La méthode \"deleteEmail\"."
+      ]
+   }
+]

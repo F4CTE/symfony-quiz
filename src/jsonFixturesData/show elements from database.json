@@ -1,0 +1,46 @@
+[
+      {
+         "question":"Question 1: Quelle est la classe de Symfony que nous pouvons type-hinter dans n'importe quel contrôleur pour accéder à diverses informations concernant la requête effectuée ?",
+         "goodAnswers":[
+            "Request"
+         ],
+         "wrongAnswers":[
+            "Response",
+            "Controller",
+            "Router"
+         ]
+      },
+      {
+         "question":"Question 2: Comment récupérer un paramètre GET 'id' dans une méthode de contrôleur ?",
+         "goodAnswers":[
+            "$id = $request->query->getInt('id')"
+         ],
+         "wrongAnswers":[
+            "$id = $request->getAttribute('id')",
+            "$id = $request->getParameter('id')",
+            "$id = $request->getPost('id')"
+         ]
+      },
+      {
+         "question":"Question 3: Quelle est la meilleure façon de récupérer une entité de la base de données en fonction d'un paramètre d'URL 'id' dans un contrôleur Symfony ?",
+         "goodAnswers":[
+            "Déclarer un paramètre d'URL 'id' dans l'annotation de la route et type-hinter directement le type de l'entité attendue dans le contrôleur."
+         ],
+         "wrongAnswers":[
+            "Injecter le Repository dans le contrôleur et utiliser la méthode 'find(id)'.",
+            "Injecter le Request dans le contrôleur et utiliser la méthode 'query->getInt('id')'.",
+            "Déclarer un paramètre d'URL 'id' dans l'annotation de la route et utiliser le Repository dans le contrôleur."
+         ]
+      },
+      {
+         "question":"Question 4: Que se passe-t-il lorsqu'on utilise le ParamConverter de Doctrine dans un contrôleur Symfony pour récupérer une entité de la base de données en fonction d'un paramètre d'URL 'id' ?",
+         "goodAnswers":[
+            "Le ParamConverter va chercher une entité de la base de données qui a l'ID correspondant au paramètre d'URL."
+         ],
+         "wrongAnswers":[
+            "Le ParamConverter va utiliser le Repository pour récupérer l'entité en question.",
+            "Le ParamConverter va utiliser le Request pour récupérer l'entité en question.",
+            "Le ParamConverter va chercher une entité de la base de données qui a le même nom que le paramètre d'URL."
+         ]
+      }
+   ]

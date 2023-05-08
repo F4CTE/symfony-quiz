@@ -1,0 +1,65 @@
+[
+   {
+      "question":"Qu'est-ce qu'un contrôleur dans Symfony ?",
+      "goodAnswers":["Une fonction PHP qui reçoit une requête HTTP et retourne une réponse HTTP"],
+      "wrongAnswers":[
+         "Un fichier CSS",
+         "Un modèle de base de données",
+         "Un package PHP pour la manipulation d'images"
+      ]
+   },
+   {
+      "question":"Comment crée-t-on un contrôleur dans Symfony ?",
+      "goodAnswers":["Avec la commande 'php bin/console make:controller'"],
+      "wrongAnswers":[
+         "En créant un fichier CSS",
+         "En utilisant un package PHP externe",
+         "En écrivant directement la fonction PHP"
+      ]
+   },
+   {
+      "question":"Qu'est-ce que le modèle Requête/Réponse dans Symfony ?",
+      "goodAnswers":["Une interface orientée objet pour représenter une requête et une réponse HTTP"],
+      "wrongAnswers":[
+         "Un design pattern pour la création de base de données",
+         "Un package PHP pour la manipulation de fichiers",
+         "Un framework PHP alternatif à Symfony"
+      ]
+   },
+   {
+      "question":"Quel est le rôle de la classe AbstractController dans Symfony ?",
+      "goodAnswers":["Fournir les capacités d'un contrôleur à une classe de contrôleurs"],
+      "wrongAnswers":[
+         "Manipuler les fichiers dans le projet",
+         "Créer une base de données",
+         "Générer un rendu de la vue"
+      ]
+   },
+   {
+      "question":"Comment définit-on une route dans Symfony ?",
+      "goodAnswers":["En utilisant une annotation au-dessus de la fonction du contrôleur"],
+      "wrongAnswers":[
+         "En écrivant directement l'URL dans la fonction du contrôleur",
+         "En créant un fichier CSS",
+         "En utilisant un package PHP externe"
+      ]
+   },
+   {
+      "question":"Quel est le rôle d'un contrôleur dans le modèle MVC ?",
+      "goodAnswers":["Demander le rendu d'une vue"],
+      "wrongAnswers":[
+         "Récupérer les données dans la base de données",
+         "Manipuler les fichiers du projet",
+         "Définir les URL du site"
+      ]
+   },
+   {
+      "question":"Quelle est la séquence logique dans le modèle MVC ?",
+      "goodAnswers":["Routage, Récupération de données, SQL, Renvoi des données, Rendu d'une vue, Vue rendue, Retour"],
+      "wrongAnswers":[
+         "Récupération de données, SQL, Renvoi des données, Routage, Rendu d'une vue, Vue rendue, Retour",
+         "Routage, Récupération de données, SQL, Renvoi des données, Vue rendue, Rendu d'une vue, Retour",
+         "Routage, Rendu d'une vue, Vue rendue, Récupération de données, SQL, Renvoi des données, Retour"
+      ]
+   }
+]

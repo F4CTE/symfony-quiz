@@ -1,0 +1,38 @@
+[
+   {
+      "question":"Qu'est-ce que Composer ?",
+      "goodAnswers":["Un gestionnaire de dépendances pour PHP"],
+      "wrongAnswers":[
+         "Un gestionnaire de versions pour Git",
+         "Un système de base de données relationnelle",
+         "Un outil pour gérer les configurations de serveur"
+      ]
+   },
+   {
+      "question":"À quoi sert Composer dans une application Symfony ?",
+      "goodAnswers":["À gérer les dépendances externes de l'application"],
+      "wrongAnswers":[
+         "À créer la base de données de l'application",
+         "À générer automatiquement le code de l'application",
+         "À surveiller les performances de l'application"
+      ]
+   },
+   {
+      "question":"Comment peut-on utiliser Composer pour charger les classes de notre application ?",
+      "goodAnswers":["En indiquant les paramètres de chargement dans le fichier composer.json"],
+      "wrongAnswers":[
+         "En écrivant le code de chargement manuellement dans chaque fichier",
+         "En utilisant une extension de Symfony dédiée à l'autoloading",
+         "En utilisant un plugin pour IDE"
+      ]
+   },
+   {
+      "question":"Qu'est-ce que le versioning semver pour les packages Composer en PHP ?",
+      "goodAnswers":["Une convention de numérotation des versions de packages"],
+      "wrongAnswers":[
+         "Une stratégie de gestion de la mémoire cache",
+         "Un protocole pour sécuriser les communications avec les bases de données",
+         "Un standard pour la gestion de la compatibilité entre les versions de PHP"
+      ]
+   }
+]
